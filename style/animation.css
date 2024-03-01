@@ -1,11 +1,3 @@
-body { 
-    background-color: black;
-}
-
-h1 {
-    color: white;
-}
-
 .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-left: .15em solid white; /* The typwriter cursor */
@@ -28,16 +20,3 @@ h1 {
     from, to { border-color: transparent }
     50% { border-color: white; }
 }
-
-p { 
-    line-height: 14px;
-            background: url(image/hello.png);
- 
-            -webkit-background-clip: text;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            -webkit-text-fill-color: rgba(255, 255, 255, 0);
-            background-size: 240vh;
-            background-position: center;
-}
-
